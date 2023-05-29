@@ -13,6 +13,7 @@ import FinalBarComponent from "./presentation/FinalBar/FinalBarComponent";
 const App = () => {
   return (
     <div className="App">
+    <h2>This is the Beginning</h2>
       <HeaderComponent />
       <Routes>
         <Route path="/" element={<HomeComponent />} />
