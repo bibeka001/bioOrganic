@@ -91,7 +91,7 @@ export const ProductsComponent = () => {
         <h1 className="heading-style">Related Products</h1>
       </div>
       <div className="third-div-products "></div>
-      <FinalBarComponent />
+      {/* <FinalBarComponent /> */}
     </div>
   );
 };

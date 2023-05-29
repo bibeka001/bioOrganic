@@ -222,7 +222,7 @@ export const CorporateComponent = () => {
           </Col>
         </Row>
       </div>
-      <FinalBarComponent />
+      {/* <FinalBarComponent /> */}
     </div>
   );
 };

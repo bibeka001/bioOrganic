@@ -8,7 +8,9 @@ function HeaderComponent() {
   const [search, setSearch] = useState("");
 
   return (
-    <div className="header-box d-flex justify-content-between align-items-center mx-5">
+    <nav className="navbar fixed-top navbar-expand-md navbar-light bg-light">
+
+    <div className="header-box">
       <div className="d-flex align-items-center">
         <img className="bio-logo me-1" src={BioOrganicLogo} />
         <span
@@ -127,6 +129,7 @@ function HeaderComponent() {
         </div>
       </div>
     </div>
+    </nav>
   );
 }
 

@@ -296,7 +296,7 @@ export const ServicesComponent = () => {
           </button>
         </form>
       </div>
-      <FinalBarComponent />
+      {/* <FinalBarComponent /> */}
     </div>
   );
 };

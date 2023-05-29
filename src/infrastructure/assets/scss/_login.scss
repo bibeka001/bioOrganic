@@ -4,6 +4,7 @@
   overflow: hidden;
   background-color: black;
   text-align: center;
+  
   .background-img {
     margin-left: 10rem;
     width: 100%;
@@ -22,6 +23,12 @@
     right: 60%;
     border-radius: 25px;
     padding: 20px;
+  }
+  @media screen and (max-width: 1024px){
+    .login-container {
+      display: flex;
+      flex-direction: row;
+    }
   }
   .bio-logo {
     width: 3rem;

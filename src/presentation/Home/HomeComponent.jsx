@@ -118,7 +118,7 @@ export const HomeComponent = () => {
         <h2 className="h25">Certification of accreditations</h2>
       </div>
       <div>
-        <FinalBarComponent />
+        {/* <FinalBarComponent /> */}
       </div>
     </div>
   );
