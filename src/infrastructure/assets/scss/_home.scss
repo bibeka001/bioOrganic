@@ -2,6 +2,8 @@
   display: flex;
   height: 100vh;
   overflow-x: scroll;
+  width: 100%;
+  background-color: whitesmoke;
 }
 .dashboard {
   display: flex;
@@ -13,7 +15,6 @@
 .research {
   display: flex;
   flex: 1;
-  //   background-color: blue;
 }
 
 .sheImage {
@@ -28,7 +29,147 @@
   display: flex;
   flex: 1;
 }
-.card {
+.show_button {
+  border-radius: 15px;
+  padding: 5px;
+  // width: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
+
+.card_section {
+  display: flex;
+  flex-direction: row;
+}
+.text_center {
+  // display: flex;
+  flex: 1.5;
+  // background-color: blue;
+  text-align: justify;
+  padding: 5px;
+}
+
+.cards {
+  flex: 2;
+  display: flex;
+  gap: 28px;
+  // background-color: red;
+  margin-top: 50px;
+}
+
+.chem_formula {
+  border: 1px solid red;
+  height: 28vh;
+  width: 34%;
+  border-radius: 15px;
+}
+.sub_head {
+  display: flex;
+  flex-direction: row;
+  // padding-top: 25px;
+}
+.subhead_image {
   display: flex;
   flex: 1;
+}
+.sub_image {
+  // padding: 10px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subhead_desc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subhead_button {
+  border-radius: 15px;
+  padding: 5px;
+  width: 15%;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
+
+.expertise {
+  display: flex;
+}
+.product {
+  display: flex;
+  flex: 1.5;
+  flex-direction: column;
+  padding: 20px;
+  flex-direction: justify;
+}
+.product_type {
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+}
+
+.expertise_button {
+  border-radius: 15px;
+  padding: 6px;
+  width: 18%;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  color: orange;
+  border-color: orange;
+}
+
+.product_check {
+  border: 1px solid red;
+  height: 22vh;
+  width: 18%;
+  border-radius: 15px;
+}
+
+.check_button{
+  background: white;
+  color: purple;
+  width: 60%;
+  height: 33px;
+  border-radius: 15px;
+  // padding: 5px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid purple;
+  position: relative;
+  bottom: -130px;
+  margin-left: 28px;
+}
+.certificates{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+h6:nth-child(7) {
+  align-items: center !important;
+  text-align: center;
+}
+.certificate1{
+  width: 23%;
+  height: 18vh;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+.certificate2{
+  width: 33%;
+  height: 28vh;
+  border-radius: 15px;
+  border: 2px solid purple;
+  // border-color: purple;
 }
