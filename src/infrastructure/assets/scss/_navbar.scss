@@ -1,0 +1,51 @@
+.navbar {
+  height: 19vh;
+  margin-top: 10px !important;
+  border-radius: 20px;
+  background-color: white;
+  // position: fixed;
+  margin: 35px;
+  border: 1px solid red;
+  opacity: 0px;
+}
+.wholeNavbar {
+  display: flex;
+}
+.bioLogo {
+  display: flex;
+  flex: 1;
+  margin-left: 15px;
+  align-items: center;
+  gap: 15px;
+}
+.logo {
+  height: 65px;
+  cursor: pointer;
+}
+h1 {
+  left: 0;
+  color: purple;
+  cursor: pointer;
+}
+.searchSection {
+  display: flex;
+  flex: 2;
+  margin-right: 20px;
+  text-align: center;
+}
+.nav-items{
+  margin-top: 20px;
+}
+// .form-control {
+//   position: relative;
+//   bottom: 35px;
+//   height: 6vh;
+//   border-radius: 15px;
+//   left: 50%;
+//   width: 100%;
+// }
+.nav-item {
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
