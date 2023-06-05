@@ -74,6 +74,7 @@ const Home = () => {
           </div>
         </div>
         <h1>Certificates of accreditations</h1>
+        <h1>Certificates of accreditations</h1>
         <div className="certificates">
           <div className="certificate1"></div>
           <div className="certificate2"></div>
