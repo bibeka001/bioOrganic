@@ -50,8 +50,8 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="expertise">
-          <div className="product">
+        <div className="expertisee">
+          <div className="product1">
             <h4>Area of expertise</h4>
             <h1>product categories</h1>
             <p>
@@ -80,7 +80,7 @@ const Home = () => {
           <div className="certificate1"></div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

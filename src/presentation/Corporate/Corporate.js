@@ -72,11 +72,15 @@ const Corporate = () => {
           <div className="time_frame"></div>
         </div>
         <div className="bio_cause">
-          <div className="expertise">
-            <button type="button" className="expertise_button">Subject Matter Expertise</button>
+          <div className="expert1">
+            <button type="button" className="expert_button"></button>
           </div>
-          <div className="art_laboratory"></div>
-          <div className="customer_service"></div>
+          <div className="expert1">
+            <button type="button" className="expert_button"></button>
+          </div>
+          <div className="expert1">
+            <button type="button" className="expert_button"></button>
+          </div>
         </div>
       </div>
     </>
