@@ -110,11 +110,7 @@
   padding: 20px;
   flex-direction: justify;
 }
-.product_type {
-  display: flex;
-  flex: 2;
-  justify-content: space-evenly;
-}
+
 
 .expertise_button {
   border-radius: 15px;
@@ -126,7 +122,11 @@
   color: orange;
   border-color: orange;
 }
-
+.product_type {
+  display: flex;
+  flex: 2;
+  justify-content: space-evenly;
+}
 .product_check {
   border: 1px solid red;
   height: 22vh;

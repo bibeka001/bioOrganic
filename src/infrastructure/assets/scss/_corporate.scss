@@ -1,0 +1,83 @@
+.corporate {
+  margin-top: 9rem;
+  overflow-x: scroll;
+  background: whitesmoke;
+  height: 100vh;
+  position: absolute;
+}
+.col-6 {
+  position: relative;
+  margin-top: 90rem;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+h1 {
+  margin-left: 30px;
+}
+p {
+  white-space: pre-wrap;
+  margin-left: 30px;
+}
+.corp_image1 {
+  width: 80%;
+  position: relative;
+  margin-left: 80px;
+}
+
+.corp_image2 {
+  width: 60%;
+  border-radius: 50%;
+  height: 60vh;
+  margin-left: 10rem;
+}
+h1:nth-child(1) {
+  color: black;
+  font-weight: 500;
+}
+.promise {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.quality {
+  width: 20%;
+  height: 15vh;
+  border: 1px solid red;
+  border-radius: 15px;
+  background: white;
+}
+
+.confidentiality {
+  width: 35%;
+  height: 24vh;
+  border-radius: 15px;
+  border: 2px solid purple;
+  background: white;
+}
+.time_frame {
+  width: 20%;
+  height: 15vh;
+  border: 1px solid red;
+  border-radius: 15px;
+  background: white;
+}
+
+.bio_cause {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio_cause {
+  width: 17%;
+  height: 35vh;
+  border: 1px solid red;
+  border-radius: 15px;
+  background: white;
+}
